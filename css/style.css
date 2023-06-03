@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;514&display=swap");
+* {
+  color: rgb(0, 0, 0);
+}
+
+.header {
+  font-size: 12px;
+  font-weight: bold;
+}
+.header #navItem {
+  color: rgb(77, 77, 77) !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header #navItem:hover {
+  color: rgb(0, 0, 15) !important;
+  text-decoration: underline;
+}
+
+.container00 {
+  min-width: 50%;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.arrowDown {
+  display: inline-block;
+  width: 90px;
+  margin-top: 5px;
+}
+
+.icon1 {
+  height: 5vh;
+  margin-bottom: 20px;
+}
+
+.logoDip {
+  width: 240px;
+  margin-right: 20px;
+}
+
+#button {
+  padding: 15px 35px;
+  font-weight: 500;
+  color: rgb(0, 0, 0) !important;
+}
+#button:hover {
+  color: white !important;
+  background-color: black !important;
+}
+
+.footer {
+  background-color: white;
+  height: 15vh;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.footer a:hover {
+  color: #222222;
+}
+
+.footerIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.copyDip {
+  color: black;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 20px 20px 20px 20px;
+}
+
+.numbers {
+  background-color: white;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.numbers .titleNumb {
+  font-size: 90px;
+}
+.numbers .subTitleNumb {
+  font-size: 20px;
+}
+
+.icon {
+  margin: 80px;
+}
+
+.downloadDesc {
+  background-color: rgb(255, 255, 255);
+  height: 85vh;
+  padding-top: 240px;
+}
+.downloadDesc button {
+  border: 2px solid white;
+  margin-right: 10px;
+}
+
+.gitDiogo {
+  text-decoration: none;
+  color: #555252;
+  border-bottom: 1px solid white;
+}
+.gitDiogo:hover {
+  color: #222222;
+  border-bottom: 1px solid #222222;
+}
+
+.container00.carrossel05 {
+  background-image: url(../../img/carrossel/1.jpg);
+}
+.container00.carrossel06 {
+  background-image: url(../../img/carrossel/2.jpg);
+}
+.container00.carrossel01 {
+  background-image: url(../../img/carrossel/3.jpg);
+}
+.container00.carrossel02 {
+  background-image: url(../../img/carrossel/4.jpg);
+}
+.container00.carrossel03 {
+  background-image: url(../../img/carrossel/5.jpg);
+}
+.container00.carrossel04 {
+  background-image: url(../../img/carrossel/6.jpg);
+}
+.container00.carrossel05 {
+  background-image: url(../../img/carrossel/7.jpg);
+}
+.container00.carrossel07 {
+  background-image: url(../../img/carrossel/8.jpg);
+}
+
+td {
+  color: white;
+}
+
+span {
+  color: white;
+}
+
+.container07 {
+  background-size: 50%;
+}
+
+.container08 {
+  padding: 50px;
+}
+
+.container10 {
+  height: auto;
+}
+
+.container11 {
+  background-color: white;
+  padding: 50px;
+}
+
+.vantagem {
+  background-color: rgb(247, 247, 247);
+  padding: 80px;
+  border-radius: 40px;
+}
+
+.cartao {
+  padding: 40px;
+  background-color: rgb(224, 224, 224);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.card {
+  border-radius: 40px;
+  margin: 20px;
+}
+
+.textoBoletim {
+  width: 60%;
+}
+
+#overViewPosition {
+  width: 500px;
+  margin-left: 13%;
+  padding-top: 15%;
+  color: white !important;
+}
+
+.subTitleOverView {
+  color: white;
+}
+
+.titleOverview {
+  color: white !important;
+}
+
+.faqTitleOverview {
+  color: rgb(0, 10, 99) !important;
+}
+
+.whatsapp {
+  width: 100px;
+  height: 80px;
+  bottom: 40px;
+  right: 40px;
+  z-index: 1000;
+}
+
+.container00.container07 {
+  background-image: url(../../img/bg-img/banner.png);
+}
+
+.titlePadding {
+  padding-top: 300px;
+}
+
+.shortTitle {
+  width: 550px;
+}
+
+.mediumTitle {
+  width: 650px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 750px) {
+  .titlePadding {
+    padding-top: 120px;
+  }
+  .shortTitle,
+  .mediumTitle {
+    width: auto;
+    font-size: 50px;
+  }
+}
+@media (max-width: 380px) {
+  .shortTitle,
+  .mediumTitle {
+    width: auto;
+    font-size: 40px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

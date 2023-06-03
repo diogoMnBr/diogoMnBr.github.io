@@ -1,0 +1,246 @@
+.header{
+    font-size: 12px;
+    font-weight: bold;
+
+    #navItem{
+        color: rgb(77, 77, 77) !important;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        &:hover{
+            color: rgb(0, 0, 15) !important;
+            text-decoration: underline;
+        }
+    }
+}
+
+.container00 {
+    min-width: 50%;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrowDown {
+    display: inline-block;
+    width: 90px;
+    margin-top: 5px;
+}
+
+.icon1 {
+    height: 5vh;
+    margin-bottom: 20px;
+}
+
+.logoDip {
+    width: 240px;
+    margin-right: 20px;
+}
+
+#button {
+    padding: $padding-button;
+    font-weight: 500;
+    color: rgb(0, 0, 0) !important;
+    
+
+    &:hover{
+        color: white !important;
+        background-color: black !important;
+    }
+}
+
+.footer{
+    background-color: white;
+    height: 15vh;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+
+        &:hover{
+            color: $link-hover;
+        }
+    }
+}
+
+.footerIcon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.copyDip {
+    color: black;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px 20px 20px 20px;
+}
+
+.numbers {
+    background-color: white;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .titleNumb {
+        font-size: 90px;
+    }
+    
+    .subTitleNumb {
+        font-size: 20px;
+    }
+}
+
+.icon {
+    margin: 80px;
+}
+
+.downloadDesc {
+    background-color: rgb(255, 255, 255);
+    height: 85vh;
+    padding-top: 240px;
+
+    button{
+        border: 2px solid white;
+        margin-right: 10px;
+    }
+}
+
+.gitDiogo {
+    text-decoration: none;
+    color: $copy-color;
+    border-bottom: 1px solid white;
+
+    &:hover{
+        color: $link-hover;
+        border-bottom: 1px solid $link-hover;
+    }
+}
+
+
+//CARROSSEL
+
+.container00 {
+    &.carrossel05 {
+        background-image: url(../../img/carrossel/1.jpg);
+    }
+    &.carrossel06 {
+        background-image: url(../../img/carrossel/2.jpg);
+    }
+    &.carrossel01 {
+        background-image: url(../../img/carrossel/3.jpg);
+    }
+    &.carrossel02 {
+        background-image: url(../../img/carrossel/4.jpg);
+    }
+    &.carrossel03 {
+        background-image: url(../../img/carrossel/5.jpg);
+    }
+    &.carrossel04 {
+        background-image: url(../../img/carrossel/6.jpg);
+    }
+    &.carrossel05 {
+        background-image: url(../../img/carrossel/7.jpg);
+    }
+    &.carrossel07 {
+        background-image: url(../../img/carrossel/8.jpg);
+    }
+    }
+
+    td {
+        color: white;
+    }
+
+    span {
+        color: white;
+    }
+
+
+    .container07 {
+        background-size: 50%;
+    }
+
+    .container08 {
+        padding: 50px;
+    }
+
+    .container10 {
+        height: auto;
+    }
+    
+    .container11 {
+        background-color: white;
+        padding: 50px;
+    }
+
+    .vantagem {
+        background-color: rgb(247, 247, 247);
+        padding: 80px;
+        border-radius: 40px;
+    }
+
+    .cartao {
+        padding: 40px;
+        background-color: rgb(224, 224, 224);
+        border-radius: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .card {
+        border-radius: 40px;
+        margin: 20px;
+    }
+
+    .textoBoletim {
+        width: 60%;
+    }
+
+    #overViewPosition {
+        width: 500px;
+        margin-left: 13%;
+        padding-top: 15%;
+        color: white !important;
+        
+    }
+
+    .subTitleOverView {
+        color: white;
+    }
+
+    .titleOverview {
+        color: white !important;
+    }
+
+    .faqTitleOverview {
+        color: rgb(0, 10, 99) !important;
+    }
+    
+    .whatsapp {
+        width: 100px;
+        height: 80px;
+        bottom: 40px;
+        right: 40px;
+        z-index: 1000;
+    }
+    
+//Media Query - reduzir tamanho de textos nas quebras, nav bar, trabalhar a div numbers e o rodapé.
